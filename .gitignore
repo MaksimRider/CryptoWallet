@@ -1,0 +1,85 @@
+
+# Arduino IDE
+*.ino.cpp
+*.ino.cpp.d
+build/
+*.elf
+*.hex
+*.bin
+
+
+# PlatformIO
+
+.pio/
+.piolibdeps/
+
+
+# ESP32
+
+sdkconfig
+sdkconfig.old
+
+
+# VS Code
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+
+# CLion / JetBrains
+
+.idea/
+cmake-build-*/
+
+
+# Python (PC Client)
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+ENV/
+
+
+# Logs
+
+*.log
+
+
+# Temporary files
+
+*.tmp
+*.bak
+*.swp
+*.swo
+
+
+# OS files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# Secrets / Wallet data
+
+secrets.h
+wallet_seed.txt
+wallet_seed.bin
+private_keys/
+keys/
+*.pem
+*.key
+
+
+# Archives
+
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
